@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://Phinees-Letshu-s-workspace-ndq6v7.us-east-1.xata.sh/db/phin_recoFlow",
+  "codegen": {
+    "output": "src/xata.ts"
+  }
+}

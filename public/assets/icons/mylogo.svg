@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="260" viewBox="0 0 240 260">
+    <defs>
+        <!-- Radial gradient from purple in the center to black at the edge -->
+        <radialGradient id="grad" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="#8E24AA"/>
+            <stop offset="100%" stop-color="#000000"/>
+        </radialGradient>
+    </defs>
+
+    <!-- Gradient-filled record button circle -->
+    <circle cx="120" cy="120" r="100" fill="url(#grad)"/>
+
+    <!-- White microphone icon centered in the circle -->
+    <g transform="translate(120,120)">
+        <!-- Mic body -->
+        <path d="M0,-60 a20,20 0 0,1 20,20 v40 a20,20 0 0,1 -40,0 v-40 a20,20 0 0,1 20,-20 z" fill="#FFFFFF"/>
+        <!-- Mic stand -->
+        <rect x="-8" y="20" width="16" height="30" rx="8" fill="#FFFFFF"/>
+    </g>
+
+    <!-- App name -->
+    <text x="120" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" fill="#333333">
+        record
+    </text>
+</svg>
